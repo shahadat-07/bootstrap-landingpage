@@ -1,0 +1,74 @@
+/* ------------------------
+Author: Md Shahadat Hossen
+Gitub:
+Facebook:
+Base ON:Bootstrap
+---------------------------*/
+
+/*=========== Global CSS ========*/
+    section{padding-top:100px;
+			padding-bottom:75px;
+		}
+	.btn{
+		box-shadow:none!important;
+	}
+/*=========== Global Colour Management CSS ========*/
+
+	.bg-info-light{
+		background-color:#13D7D6;
+	}
+	.bg-black{
+		background-color:black;
+	}
+	.bg-dark-50{
+		background-color:#2f2933;
+	}
+	.text-info-light{
+		color:#13D7D6;
+	}
+	.text-black-25{
+		color:#6c757d73;
+	}
+/*=========== Global Font-familly Management CSS ========*/	
+
+	.font-auto{
+	font-family:auto;
+}
+/*=========== Global Text Management CSS ========*/	
+
+	.letter-spacing-1{
+	letter-spacing:1px;
+	}
+	.letter-spacing-2{
+	letter-spacing:2px;
+	}
+	.word-spacing-3{
+	word-spacing:3px;
+	}
+	.word-spacing-4{
+	word-spacing:4px;
+	}
+ 
+	
+	
+	
+	
+	
+.hr-40{
+	border-top: 2px solid #b9bdd4;
+	width: 40px;
+}	
+.card-hover-visible{
+		visibility:hidden;
+	}
+	.card:hover .card-hover-visible{
+		visibility:visible;
+	}
+	.bg-transparent-white{
+		background-color:#ffffff5c;
+	}
+	.top-auto{
+		top:auto;
+	}
+
+/*=========== Global Media CSS ========*/

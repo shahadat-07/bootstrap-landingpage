@@ -1,0 +1,109 @@
+/* ------------------------
+Author: Md Shahadat Hossen
+Gitub:
+Facebook:
+---------------------------*/
+/*========================== Theme CSS =====================*/
+	/*=========== Main Menu CSS ========*/
+	#main_nav img{
+		width: auto;
+		height: 37px;
+	}
+	#main_nav ul li:hover a{
+		color:#13D7D6;
+	}
+
+	#mainSlider .carousel-control-next, 
+	#mainSlider .carousel-control-prev {
+		width:50px!important;
+	}
+	/*=========== Main Slider CSS ========*/	
+		
+	#mainSlider .carousel-control-next #span_icon, 
+	#mainSlider .carousel-control-prev #span_icon {
+		background-color:black;
+		padding:12px;
+		color:#13D7D6;
+	}
+	/*=========== Awesome Section CSS ========*/		
+	#awesome .circle-box{
+		width:150px;
+		height:150px;	
+	}
+	#awesome button:hover{
+		background-color:#13D7D6;
+		color:white;
+	}
+	/*---- ======= Social Section ==== -----*/
+
+	#social .circle-box{
+		width:100px;
+		height:100px;	
+	}
+	#social button:hover{
+		background-color:#13D7D6;
+		color:white;
+	}
+	/*---- ====== Breaking Section ==== -----*/
+
+	#blog .card:hover img{
+		cursor:pointer;
+		transform:scale(1.05);
+		transition:all 1s;
+		}
+	/*---- Picture Section -----*/	
+	#picture{
+		background-image:
+		linear-gradient(#fdbb0240,#cdd01240),linear-gradient(#e6cb084d,#dca71238),url(../images/picture.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+	}
+	/*---- ===== Key Feature Section ===== -----*/
+
+	#key #span{
+				width:45px;
+				height:45px;
+			}
+	#key #span i{
+		width: 25px;
+		height: 25px;
+		margin-left: 12px;
+		margin-top: 13px;
+	}
+	/*---- ====== Team Section ==== -----*/
+		#span i{
+			width:15px;
+			height:15px;
+		}
+		.card-img-overlay{
+			visibility:hidden;
+		}
+		.card:hover .card-img-overlay{
+			cursor:pointer;
+			visibility:visible;
+			background-color:#13d7d6bd;
+		}
+	/*---- ====== Client Section ===== -----*/
+	#client{
+			background-image: linear-gradient(#21252942,#21252961),linear-gradient(#21252942,#2125294d),url(../images/client_bg.jpg);
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position:center;
+			}
+	#our-clients img{
+				width:auto;
+				height:90px;
+				margin:auto;
+			}
+
+
+
+
+
+
+/*=========== Theme Media CSS ========*/
+@media(max-width:992px) {
+ 
+
+}
